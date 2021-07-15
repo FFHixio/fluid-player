@@ -43,7 +43,7 @@
     "@babel/preset-env": "^7.9.6",
     "babel-loader": "^8.1.0",
     "cheerio": "^1.0.0-rc.3",
-    "copy-webpack-plugin": "^5.1.1",
+    "copy-webpack-plugin": "^5.1.2",
     "css-loader": "^3.4.2",
     "html-webpack-plugin": "^4.3.0",
     "semver": "^7.3.2",
