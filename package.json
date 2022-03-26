@@ -11,7 +11,9 @@
     "build-dev-debug": "webpack --mode=development --debug",
     "dev-server": "webpack-dev-server --mode=development --host 0.0.0.0",
     "dev-server-debug": "webpack-dev-server --mode=development --debug --host 0.0.0.0",
-    "dev-server-test": "webpack-dev-server --mode=production --no-live-reload --host 0.0.0.0"
+    "dev-server-test": "webpack-dev-server --mode=production --no-live-reload --host 0.0.0.0",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -36,7 +38,8 @@
     "hls.js": "~0.13.2",
     "panolens": "~0.11.0",
     "videojs-vtt.js": "~0.15.2",
-    "es6-promise": "^4.2.8"
+    "es6-promise": "^4.2.8",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
@@ -52,5 +55,6 @@
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
-  }
+  },
+  "snyk": true
 }
